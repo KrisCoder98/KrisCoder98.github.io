@@ -1,0 +1,47 @@
+:root {
+  --primary-color: #386bf5;
+  --primary-hover: #180093;
+  --primary-container: #d1fae5;
+
+  --secondary-color: #00cd15;
+  --secondary-hover: #007211;
+  --secondary-container: #e0e7ff;
+
+  --bg-color: #968e00;
+  --card-bg: #fff53e;
+  --border-color: #000000;
+
+  --text-color: #00194e;
+
+  --error-color: #ff0000;
+  --success-color: #22c55e;
+
+  --btn-color: #ffffff;
+
+  --border-radius-s: 12px;
+  --border-radius-m: 24px;
+  --border-radius-l: 36px;
+}
+
+body {
+  margin: 8px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+button {
+  &.destructive-style {
+    background-color: var(--error-color);
+  }
+
+  &.primary-style {
+    background-color: var(--primary-color);
+  }
+
+  background-color: var(--btn-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius-s);
+}
