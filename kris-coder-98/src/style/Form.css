@@ -1,0 +1,39 @@
+form {
+    background-color: var(--card-bg);
+    min-width: 450px;
+    width: max-content;
+    padding: 8px 16px;
+    border-radius: var(--border-radius-m);
+    border: 4px solid var(--border-color);
+    text-align: center;
+
+    > div {
+        display: flex;
+        gap: 8px;
+
+    }
+}
+
+input {
+    display: block;
+    margin: 12px auto;
+    padding: 8px;
+    border-radius: var(--border-radius-s);
+    border: 2px solid var(--border-color);
+}
+
+button {
+    background-color: var(--btn-color);
+    color: var(--text-color);
+    padding: 8px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-s);
+    cursor: pointer;
+}
+
+span.like-btn {
+    margin-top: 8px;
+    color: var(--primary-hover);
+    cursor: pointer;
+    text-decoration: underline;
+}
